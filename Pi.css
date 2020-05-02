@@ -256,7 +256,7 @@ h2{
     color: black;
 }
 
-@media(max-width: 768){
+@media(max-width: 768px){
     .carousel{
         display: none;
     }
