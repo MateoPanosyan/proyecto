@@ -255,9 +255,20 @@ h2{
     float: left;
     color: black;
 }
-
-@media(max-width: 768px){
-    .carousel{
-        display: none;
-    }
+a{
+    color: #8F8E8E;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+h3{
+    display: inline;
+    color: grey;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: right;
+    padding-left: 15px;
+    font-weight: lighter;
+    padding-top: 30px;
 }
