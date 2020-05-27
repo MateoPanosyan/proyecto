@@ -51,7 +51,7 @@ li{
   display: inline;
   color: grey;
   font-size: 25px;
-
+  text-decoration: none;
   text-align: right;
   padding-left: 15px;
   font-weight: lighter;
