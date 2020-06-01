@@ -190,6 +190,16 @@ h2{
     background-color: #FFAFCF;
     height: 50px;
     display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+.class-artista{
+    box-sizing: border-box;
+    border: solid 2px white;
+    background-color: #FFAFCF;
+    height: 50px;
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     justify-content: center;
     align-items: center;
