@@ -8,10 +8,7 @@ body{
 }
 
 .grid-container{
-    display: grid;
-    height: 80%;
     width: 50%;
-    grid-template-columns: 80%;
     background-color: #FFAFCF;
 }
 h1{
@@ -33,14 +30,9 @@ h1{
     height: 100px;
     background-color: #FFAFCF;
 }
-.grid-container{
-    width: 100%;
-    height: 100px;
-    background-color: #FFAFCF;
-    margin: auto;
-}
+
 .logo{
-    width: 30%;
+    width: 20%;
     height: 100px;
     background-color: #FFAFCF;
     float: left;
