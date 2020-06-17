@@ -20,52 +20,30 @@
                 <li><a href="homepi.html"> Home</a></li>
                 <li><a href="playlist/playlist.html">Playlist</a></li>
                 <li><a href="login.html">Login In</a></li>
-                <form action="resultado.html" method="GET">
-                    <input type="text" name="search" placeholder="¿Qué querés buscar?">
-                    <!-- <button type="submit">Buscar</button> -->
-                </form>
             </ul>
         </nav>
     </header>
     </h1>
-    <h2>
-    <div class="carousel">
-        <button class="carousel__button carousel__button--left">
-            <img src="imagenes/flechaIzquierda" alt="izq">
-        </button>
 
-        <div class="carousel__track-container">
-            <ul class="carousel__track">
-                <li class="carousel__slide">
-                    <img class="carousel__image" src="imagenes/Slide-4.png" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__image" src="imagenes/Slide-2.png" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__image" src="imagenes/Slide-3.png" alt="">
-                </li>
-                <li class="carousel__slide">
-                    <img class="carousel__image" src="imagenes/Slide-1.png" alt="">
-                </li>
-            </ul>
+    <h2>
+   <div class="slider">
+        <div class="box">
+            <p class="marvel">marvel</p>
+            <img src="img/Ant-Man.png" class="model">
+            <div class="detail">
+                <img src="img/AntMan-logo.png" class="logo-slider" width="100px" style="height: auto;">
+                <p>Bruce Byan invite Deadpool to kill the enemy how to make disturb the bat</p>
+            </div>
         </div>
-        <button class="carousel__button carousel__button--right">
-            <img src="imagenes/flecha.Derecha" alt="derecha">
-        </button>
-        <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-        </div>
-    </div>
-    <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Type to search">
-        <a class="search-btn" href="#">
-            <i class="fas fa-search"></i>
+   </div>
+    </h2>
+
+    <form class="search-box" action="../home/javascript/homepi.js" method="GET">
+        <input class="search-txt" type="text" name="" placeholder="Atrists, tracks or Albums">
+        <a class="search-btn" href="../home/resultados/resultados.html">
+        <i class="fas fa-search-plus"></i> 
         </a>
-    </div>
-</h2>
+    </form>
 
     <h3>
     <div class="container">
@@ -129,7 +107,7 @@
         </div>
     </div>    
     </h3>
-
+    
     <h4>
         <div class="footer">
             <div class="inner-footer">
@@ -163,6 +141,6 @@
             </div>
         </div>    
     </h4>
-
+<script src="../home/javascript/slider.js"></script>
 </body>
 </html>
