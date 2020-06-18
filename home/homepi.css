@@ -267,6 +267,7 @@ h3{
     justify-content: center;
     align-items: center;
     background-color: #FFAFCF;
+    height: 50px;
 }
 .artists{
     display: grid;
