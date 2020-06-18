@@ -262,6 +262,26 @@ h3{
     background-color: #FFAFCF;
     height: 50px;
 }
+.tracks{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAFCF;
+}
+.artists{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAFCF;
+    height: 50px;
+}
+.album{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAFCF;
+    height: 50px;
+}
 
 @media (max-width:900px) {
     body{
@@ -321,7 +341,7 @@ h3{
         color: grey;
         font-size: 20px;
         text-decoration: none;
-        text-align: right;
+        align-items: left;
         padding-left: 15px;
         font-weight: lighter;
         padding-top: 30px;
