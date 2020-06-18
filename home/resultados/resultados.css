@@ -7,6 +7,7 @@ body{
     padding: 0;
 }
 h1{
+    padding-top: 50px;
     width: 100%;
     height: 100px;
     background-color: #FFAFCF;
@@ -18,6 +19,7 @@ h1{
     height: 100px;
     background-color: #FFAFCF;
     margin: auto;
+    display: inline;
 }
 
 .logo{
@@ -50,23 +52,27 @@ img{
     font-weight: lighter;
 }
 li{
-    display: inline;
+    display: list-item;
     color: grey;
     font-size: 25px;
     text-decoration: none;
-    text-align: right;
+    text-align: left;
     padding-left: 15px;
     font-weight: lighter;
     padding-top: 30px;
+    
 }
 .logo:hover{
     color: black;
 }
 li:hover{
+    color: #FFAFCF;
+}
+a:hover{
     color: black;
 }
-
 h2{
+    padding-top: 30px;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -82,7 +88,7 @@ ul{
 
 .search-box{
     position: absolute;
-    top: 100%;
+    top: auto;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFAFCF;
@@ -219,6 +225,12 @@ ul{
 a{
     color: #8F8E8E;
     text-decoration: none;
+    display: inline;
+    font-size: 25px;
+    text-align: right;
+    padding-left: 15px;
+    font-weight: lighter;
+    padding-top: 30px;
 }
 a:hover{
     color: black;
@@ -315,68 +327,6 @@ h3{
     li:hover{
         color: black;
     }
-    .carousel{
-        position: relative;
-        height: 600px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .carousel__image{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .carousel__track-container {
-        height: 100%;
-        position: relative;
-    }
-    .carousel__track {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    .carousel__slide {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-    }
-    
-    .carousel__button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: transparent;
-        border: 0;
-        cursor: pointer;
-    }
-    .carousel__button--left {
-        left: -50px;
-    }
-    .carousel__button--right {
-        right: -70px;
-    }
-    .carousel__button img {
-        width: 40px;
-        height: 35px;
-    }
-    .carousel__nav {
-        display: flex;
-        justify-content: center;
-        padding: 10px 0;
-    }
-    .carousel__indicator {
-        border: 0;
-        border-radius: 50%;
-        width: 10px;
-        height: 10px;
-        color: #8F8E8E;
-        margin: 0 15px;
-    }
-    .carousel__indicator.current-slide {
-        background: #8F8E8E;
-    }
-    
     h2{
         margin: 0;
         padding: 0;
@@ -422,42 +372,6 @@ h3{
         width: 0px;
     }
     
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 85%;
-        column-gap: 2cm;
-        row-gap: 0.5cm;
-        margin: 200px auto;  
-        text-align: center;
-        padding: 10px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: bold;
-        background-color: transparent;
-        font-size: 20px;
-    }
-    .class{
-        box-sizing: border-box;
-        border: solid 2px white;
-        background-color: #FFAFCF;
-        height: 50px;
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-    }
-    .class-artista{
-        box-sizing: border-box;
-        border: solid 2px white;
-        background-color: #FFAFCF;
-        height: 50px;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-    }
     .footer{
         width: 100%;
         font-display: none;
