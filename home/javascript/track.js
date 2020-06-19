@@ -18,10 +18,10 @@ fetch(url)
         titulo.innerHTML += datos.title;
         
         let interprete = document.querySelector('.interprete');
-        interprete.innerHTML += datos.artist.name
+        interprete.innerHTML += '<a href="artist.html?id='+ datos.artist.id+ '">'+ datos.artist.name +'</a>'
         
         let album = document.querySelector('.album');
-        album.innerHTML += datos.album.title
+        album.innerHTML += '<a href="album.html?id=' + datos.album.id + '">' + datos.album.title + '</a>'
 
         //Aquí agregamos el player.
         let player = document.querySelector('iframe');

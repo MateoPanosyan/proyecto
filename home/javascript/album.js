@@ -10,12 +10,12 @@ fetch(url)
         return response.json();
     })
 .then(function(datos){
-        let album = document.querySelector("h1");
+        let album = document.querySelector(".title");
         album.innerHTML = datos.title;
         let foto = document.querySelector(".portada");
         foto.src = datos.cover_big;
         let descrip = document.querySelector(".descripcion");
-        descrip.innerHTML += "<h4 class='items'>Artista: " + '<a class="hipervinculo" href= "artista.html?id=' + datos.artist.id + '">' + datos.artist.name + '</a></h4>';
+        descrip.innerHTML += "<h4 class='items'>Artista: " + '<a class="hipervinculo" href= "artist.html?id=' + datos.artist.id + '">' + datos.artist.name + '</a></h4>';
         descrip.innerHTML += "<h4 class='items'>Fans: " + datos.fans + '</h4>' + "<h4 class='items'>Fecha de Salida: " + datos.release_date + '</h4>'; 
     })
 .catch(function(error){
@@ -35,7 +35,7 @@ fetch(ruta)
     let tops = document.querySelector('.popular-song'); 
     let toptracks = '';
     for(let i=0; i<5; i++){
-      toptracks += '<li><a class="hipervinculo" href= detail.html?id=' + cancion[i].id + '>' + cancion[i].title + '</a></li>';
+      toptracks += '<li><a class="hipervinculo" href=track.html?id=' + cancion[i].id + '>' + cancion[i].title + '</a></li>';
     }
     tops.innerHTML+= toptracks;
 })
