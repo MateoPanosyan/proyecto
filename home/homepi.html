@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="homepi.html"> Home</a></li>
                 <li><a href="playlist/playlist.html">Playlist</a></li>
-                <li><a href="login.html">Genre</a></li>
+                <li><a href="genres.html">Genre</a></li>
             </ul>
         </nav>
     </header>
@@ -37,24 +37,25 @@
                 <img src="imagenes/Slider-1.png" id="firstClone" alt="">
             </div>
         </div>
- 
-    <form class="search-box" action="../home/resultados/resultados.html" method="GET">
-        <input class="search-txt" type="text" name="search" placeholder="Atrists, Tracks or Albums">
-        <a class="search-btn" href="../home/resultados/resultados.html">
-        <i class="fas fa-search-plus"></i> 
-        </a>
-    </form>
+    <div class="search-container">
+        <form class="search-box" action="../home/resultados/resultados.html" method="GET">
+            <input class="search-txt" type="text" name="search" placeholder="Atrists, Tracks or Albums">
+            <a class="search-btn" href="../home/resultados/resultados.html">
+                <i class="fas fa-search-plus"></i>
+            </a>
+        </form>  
+    </div>
 
-    <h3>
+    <!-- <h3> -->
         <div class="container">
             <div class="chart-g">Artists</div>
             <div class="chart-g">Songs</div>
             <div class="chart-g">Albums</div>       
             <div class="artists"></div>
             <div class="tracks"> </div>
-            <div class="album"></div>   
+            <div class="albums"></div>   
         </div>    
-        </h3>
+    <!-- </h3> -->
     
     <h4>
         <div class="footer">
@@ -93,5 +94,6 @@
         </div>    
     </h4>
 <script src="javascript/homepi.js"></script>
+<script src="javascript/carrusel.js"></script>
 </body>
 </html>

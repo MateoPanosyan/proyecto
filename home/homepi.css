@@ -2,7 +2,7 @@ body{
     background-color: black;
     
 }
-*{
+*{  box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -11,7 +11,9 @@ h1{
     height: 100px;
     background-color: #FFAFCF;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+}
+.gris{
+    color: #8F8E8E;
 }
 .header{
     width: 80%;
@@ -33,7 +35,7 @@ h1{
     font-weight: lighter;
     float: left;
 }
-img{
+.header img{
     box-sizing: border-box;
     width: 100px;
     height: 100px;
@@ -49,7 +51,7 @@ img{
     box-sizing: border-box;
     font-weight: lighter;
 }
-li{
+nav li{
     color: grey;
     font-size: 25px;
     text-decoration: none;
@@ -66,17 +68,19 @@ li:hover{
     color: black;
 }
 
-
+.search-container{
+    position: relative;
+    margin-top: 70px;
+}
 .search-box{
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFAFCF;
-    height: 40px;
+    /* height: 40px; */
     border-radius: 40px;
     padding: 10px;
-    margin: auto;
 }
 .search-box:hover > .search-txt{
     width: 600px;
@@ -103,8 +107,8 @@ li:hover{
     color: black;
     font-size: 16px;
     transition: 0.4s;
+    width: 0;
     line-height: 40px;
-    width: 0px;
 }
 
 .container {
@@ -216,12 +220,12 @@ a{
 a:hover{
     color: black;
 }
-h3{
-    display: inline;
+.artists,
+.albums,
+.tracks{
     color: grey;
     font-size: 25px;
     text-decoration: none;
-    text-align: right;
     padding-left: 15px;
     font-weight: lighter;
     padding-top: 30px;
@@ -236,6 +240,7 @@ h3{
     align-items: center;
     background-color: #FFAFCF;
     height: 50px;
+    font-size: 25px;
 }
 .carousel-container{
     width: 40%;
@@ -827,5 +832,4 @@ h3{
         height: 50px;
     }
 }
-
   
