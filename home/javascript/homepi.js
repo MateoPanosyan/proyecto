@@ -55,7 +55,7 @@ fetch(url)
         let resultados = datos.data;
 
         resultados.forEach(function(track){
-            tracks.innerHTML += '<li>' + '<a href="track.html?id='+ track.id+ '">'+ track.title + '</a></li>' 
+            tracks.innerHTML += '<li class="class">' + '<a href="track.html?id='+ track.id+ '">'+ track.title + '</a></li>' 
         })
 
     })
