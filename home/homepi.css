@@ -51,6 +51,9 @@ h1{
     box-sizing: border-box;
     font-weight: lighter;
 }
+li{
+    text-align: left;
+}
 nav li{
     color: grey;
     font-size: 25px;
@@ -132,9 +135,8 @@ li:hover{
     display: grid;
     grid-template-columns: 100%;
     column-gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+    justify-content: left;
+    align-items: left;
 }
 .class-artista{
     box-sizing: border-box;
@@ -171,7 +173,7 @@ li:hover{
     color: #8F8E8E;
 }
 .inner-footer .logo-container img {
-    width: 200px;
+    width: 170px;
     height: auto;
 }
 .inner-footer .third-footer{
@@ -275,7 +277,10 @@ a:hover{
     opacity: 0.7;
     cursor: pointer;
 }
-
+.nombres{
+    font-size: 10px;
+    color: #8F8E8E;
+}
 @media (max-width:900px) {
     body{
         background-color: black;
@@ -461,7 +466,7 @@ a:hover{
         color: #8F8E8E;
     }
     .inner-footer .logo-container img {
-        width: 200px;
+        width: 100px;
         height: auto;
     }
     .inner-footer .third-footer{
