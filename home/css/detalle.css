@@ -74,7 +74,8 @@ li:hover{
     padding: 70px 0;
     box-sizing: border-box;
     background-color: #FFAFCF;
-    color: black;   
+    color: black;
+       
 }
 .inner-footer{
     font-display: none;
@@ -222,4 +223,8 @@ grid-template-columns: 50% ;
 
 .trackfoto{
     margin-top: 35px;
+}
+.top-canciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
