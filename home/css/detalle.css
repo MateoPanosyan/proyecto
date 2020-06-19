@@ -134,6 +134,8 @@ li:hover{
 a{
     color: #8F8E8E;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 a:hover{
     color: black;
@@ -143,14 +145,14 @@ a:hover{
     display: grid;
     height: 80%;
     width: 80%;
-  background-color: black;
-grid-template-columns: 50% 50%;
-  background-color: #FFAFCF;
-  gap: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    background-color: black;
+    grid-template-columns: 50% 50%;
+    background-color: #FFAFCF;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }  
 
 .artista{
