@@ -33,7 +33,7 @@ h1{
     font-weight: lighter;
     float: left;
 }
-img{
+img.logo{
     box-sizing: border-box;
     width: 100px;
     float: left;
@@ -144,7 +144,7 @@ a:hover{
     height: 80%;
     width: 80%;
   background-color: black;
-
+grid-template-columns: 50% 50%;
   background-color: #FFAFCF;
   gap: 5px;
   margin-left: auto;
@@ -153,12 +153,63 @@ a:hover{
   margin-bottom: 30px;
 }  
 
-img.portadas{
-    margin: 10px;
-    display: inline-block;
+.artista{
+    background-color: #FFAFCF;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+ float: right;
+ justify-content: center;
 }
 
-a{
-    display: inline;
+.datos{
+    background-color: #FFAFCF;
+    box-sizing: border-box;
+    margin: 30px;
+    justify-content: center;
 }
+
+h2{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.seguidores{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.gris{
+    padding: 10x;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28;
+
+}
+
+img.portadas{
+    margin: 10px;
+    display: block;
+}
+
+.items{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.grid-contenedor{
+    display: grid;
+    height: 80%;
+    width: 80%;
+  background-color: black;
+grid-template-columns: 50% ;
+  background-color: #FFAFCF;
+  gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} <h3 class="gris">Escuchando...</h3>
 
