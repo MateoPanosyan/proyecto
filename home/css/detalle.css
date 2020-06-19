@@ -214,5 +214,6 @@ grid-template-columns: 50% ;
 } 
 
 .generos{
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
