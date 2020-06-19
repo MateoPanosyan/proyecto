@@ -19,7 +19,7 @@ fetch(id)
 
         h2.innerHTML += resultado.name
         seguidores.innerHTML += resultado.nb_fan + " Seguidores"  
-        fotoArtista.src = resultado.picture_medium
+        fotoArtista.src = resultado.picture_big
     })
     .catch(function(error){
         console.log(error)
