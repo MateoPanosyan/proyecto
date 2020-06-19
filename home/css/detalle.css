@@ -211,5 +211,8 @@ grid-template-columns: 50% ;
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-} <h3 class="gris">Escuchando...</h3>
+} 
 
+.generos{
+    display: inline-block;
+}
