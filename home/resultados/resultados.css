@@ -175,6 +175,7 @@ h3{
 .inner-footer .logo-container img {
     width: 170px;
     height: auto;
+    padding-left: 10px;
 }
 .inner-footer .third-footer{
     width: calc(21% - 90px);
