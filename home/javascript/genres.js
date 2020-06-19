@@ -12,7 +12,7 @@ fetch(url)
         let nombre = datos.data;
 
         nombre.forEach(function(genero){
-            top.innerHTML += '<li class="info">' + '<a href="#"><img src="' + genero.picture_small + '" class="portadas">' + '</a> <a href="#' + genero.id + '">' + genero.name + '</a></li>'
+            top.innerHTML += '<li class="info">' + '<a href="#"><img src="' + genero.picture_medium + '" class="portadas">' + '</a> <a href="#' + genero.id + '">' + genero.name + '</a></li>'
         })
     })
     .catch(function(error){
