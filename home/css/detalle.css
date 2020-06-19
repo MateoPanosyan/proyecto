@@ -184,6 +184,7 @@ h2{
 .gris{
     padding: 10x;
     margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 28;
 
 }
@@ -193,5 +194,22 @@ img.portadas{
     display: block;
 }
 
+.items{
+    font-size: 20px;
+    padding: 10px;
+}
 
+.grid-contenedor{
+    display: grid;
+    height: 80%;
+    width: 80%;
+  background-color: black;
+grid-template-columns: 50% ;
+  background-color: #FFAFCF;
+  gap: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+} <h3 class="gris">Escuchando...</h3>
 
